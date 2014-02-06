@@ -1,4 +1,75 @@
+
 @font-face {
+    font-family: 'unit';
+    src: url('../fonts/unit/UnitWeb.eot');
+    src: url('../fonts/unit/UnitWeb.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/unit/UnitWeb.woff') format('woff'),
+         url('../fonts/unit/UnitWeb.ttf') format('truetype'),
+         url('../fonts/unit/UnitWeb.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'unit';
+    src: url("../fonts/unit/UnitWeb-Ita.eot");
+    src: url("../fonts/unit/UnitWeb-Ita.eot?#iefix") format("embedded-opentype"), url("../fonts/unit/UnitWeb-Ita.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'unit';
+    src: url("../fonts/unit/UnitWeb-Bold.eot");
+    src: url("../fonts/unit/UnitWeb-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/unit/UnitWeb-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'unit';
+    src: url("../fonts/unit/UnitWeb-BoldIta.eot");
+    src: url("../fonts/unit/UnitWeb-BoldIta.eot?#iefix") format("embedded-opentype"), url("../fonts/unit/UnitWeb-BoldIta.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'unit';
+    src: url("../fonts/unit/UnitWeb-Med.eot");
+    src: url("../fonts/unit/UnitWeb-Med.eot?#iefix") format("embedded-opentype"), url("../fonts/unit/UnitWeb-Med.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'unit';
+    src: url("../fonts/unit/UnitWeb-MedIta.eot");
+    src: url("../fonts/unit/UnitWeb-MedIta.eot?#iefix") format("embedded-opentype"), url("../fonts/unit/UnitWeb-MedIta.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'unit';
+    src: url("../fonts/unit/UnitWeb-Light.eot");
+    src: url("../fonts/unit/UnitWeb-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/unit/UnitWeb-Light.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'unit';
+    src: url("../fonts/unit/UnitWeb-LightIta.eot");
+    src: url("../fonts/unit/UnitWeb-LightIta.eot?#iefix") format("embedded-opentype"), url("../fonts/unit/UnitWeb-LightIta.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+} 
+@font-face {
+    font-family: 'icon';
+    src: url('../fonts/icon.eot');
+    src: url('../fonts/icon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icon.woff') format('woff'),
+         url('../fonts/icon.ttf') format('truetype'),
+         url('../fonts/icon.svg#open_sansextrabold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}   
+/*@font-face {
     font-family: 'open_sans';
     src: url('../fonts/OpenSans-Regular-webfont.eot');
     src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -56,3 +127,4 @@
     font-style: normal;
 
 }
+*/

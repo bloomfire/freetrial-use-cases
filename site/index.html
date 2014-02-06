@@ -14,7 +14,7 @@
  		<div id="wrapper">
  			<h1>Now let's customize your Free Trial</h1>
  			<section>
- 			<h2>What is your organization's biggest need?</h2>
+ 			<h2>1. What is your organization's biggest need? <span class="small">(select one)</span></h2>
 			<div class="selectorContain group">
 				<div class="selectorSection">
 					<img src="images/icon_knowledgeBase.png" />
@@ -79,13 +79,18 @@
 						<div class="check"><span data-icon="&#xe609;" aria-hidden="true"></span></div>
 					</div>
 				</div>-->
-				<div class="selectorSection other">
-					<p><span class="bold">Other:</span><input type="text" /></p>
+				<div class="selectorSection other ">
+					<img src="images/icon_other.png" />
+					<input type="text" />
+					<p>other</p>
+					<div class="bar">
+						<div class="check"><span data-icon="&#xe609;" aria-hidden="true"></span></div>
+					</div>
 				</div>
 			</div>
 			</section>
-			<section>
-				<h2>How many employees are in your organization? (select one) 
+			<section class="half">
+				<h2>2. How many employees are in your organization?
 					<div id="employees">
 						  <input type="radio" id="employees1" name="employees"><label for="employees1">0 - 100</label>
 						  <input type="radio" id="employees2" name="employees"><label for="employees2">101 - 500</label>
@@ -94,8 +99,8 @@
 					</div>
 				</h2>
 			</section>
-			<section>
-				<h2>How many Bloomfire users do you estimate? (select one) 
+			<section class="half">
+				<h2>3. How many Bloomfire users do you estimate?
 					<div id="users">
 						  <input type="radio" id="users1" name="users"><label for="users1">0 - 100</label>
 						  <input type="radio" id="users2" name="users"><label for="users2">101 - 500</label>
